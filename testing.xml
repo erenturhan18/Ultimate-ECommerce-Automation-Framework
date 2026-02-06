@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="E-Commerce Regression Suite">
+    <test name="All Functional Tests">
+        <classes>
+            <class name="tests.C01_KullaniciKaydi"/>
+            <class name="tests.C02_LoginTesti"/>
+        </classes>
+    </test>
+</suite>
